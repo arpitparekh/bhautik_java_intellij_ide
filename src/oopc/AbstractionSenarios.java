@@ -39,7 +39,7 @@ class Garage extends Car{
 
 
 class Tv{
-
+    int a;
 }
 
 class Mobile extends Tv implements B3,A3{
@@ -54,14 +54,13 @@ class Mobile extends Tv implements B3,A3{
 
     }
 }
-
-class A5{
-
-    
-
-}
-
 public class AbstractionSenarios {
+
+    static Tv method1(){
+        return new Tv();
+    }
+
+
     public static void main(String[] args) {
 
         // class
@@ -73,6 +72,9 @@ public class AbstractionSenarios {
         // polymorphism
         // abstraction
         // encapsulation
+
+        method1().a = 23;
+
 
     }
 }
