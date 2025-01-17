@@ -50,7 +50,9 @@ public class InterfaceInJava {
 
     public static void main(String[] args) {
 
-
+        // oopc
+        // class
+        // objecy
 
     }
 }
